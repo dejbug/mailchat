@@ -1,0 +1,13 @@
+
+# NOTE: The "/" in front of the paths does not
+# imply an absolute path but seems to have the
+# meaning of "./". Will need to read this here:
+# <http://schacon.github.io/git/gitignore.html>
+
+# -- Exclude underscored folders (in CWD).
+/_*/
+
+# -- Exclude compiler artifacts (in CWD).
+/*.o
+/*.exe
+/*.dll
